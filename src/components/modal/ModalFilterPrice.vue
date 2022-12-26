@@ -87,7 +87,8 @@ export default defineComponent({
       place-items-center
       fixed
       text-start
-      top-0
+      md:top-0
+      top-80
       left-0
       right-0
       z-50

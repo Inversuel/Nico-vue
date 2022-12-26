@@ -72,10 +72,11 @@ export default defineComponent({
       place-items-center
       fixed
       text-start
-      top-0
+      md:top-0
+      top-80
       left-0
       right-0
-      z-50
+      z-99999
       w-full
       p-4
       overflow-x-hidden overflow-y-auto
@@ -84,7 +85,7 @@ export default defineComponent({
       md:h-full
     "
   >
-    <div class="relative">
+    <div class="relative ">
       <!-- Modal content -->
       <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
         <button
